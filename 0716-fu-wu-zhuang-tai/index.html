@@ -665,6 +665,33 @@ systemctl restart [服务名]	#重启服务
     
 
     
+        <link rel="stylesheet" href="/libs/gitment/gitment-default.css">
+<link rel="stylesheet" href="/css/gitment.css">
+
+<div class="gitment-card card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitment-content" class="card-content"></div>
+</div>
+
+<script src="/libs/gitment/gitment.js"></script>
+<script>
+var gitment = new Gitment({
+    id: 'Sat Jul 16 2022 03:01:58 GMT+0800',
+    owner: 'rat857',
+    repo: 'rat857.github.io',
+    oauth: {
+        client_id: '1534f50345ccee32ab55',
+        client_secret: '13f1383683ba4ec49f111fbb64226a8dde58defb'
+    }
+});
+
+gitment.render('gitment-content');
+</script>
+
+    
 
     
 
